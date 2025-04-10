@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario HTML5</title>
+    <meta name="author" content="Sergio Martín" />
+</head>
+
+<body>
+
+    <form>
+        <label>Nombre:
+            <input type="text" name="nombre">
+        </label>
+        <br></br>
+
+        <label>Correo electrónico:
+            <input type="email" name="email">
+        </label>
+        <br></br>
+
+        <label>URL:
+            <input type="url" name="url" placeholder="Escribe la URL de tu página">
+        </label>
+        <br></br>
+
+        <label>Fecha:
+            <input type="date" name="fecha">
+        </label>
+        <br></br>
+
+        <label>Género:</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label></br>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        <br></br>
+
+        <label>Número de hijos:</label><br>
+        <input type="radio" id="ninguno" name="hijos" value="0">
+        <label for="ninguno">ninguno</label><br>
+        <input type="radio" id="uno" name="hijos" value="1">
+        <label for="uno">uno</label><br>
+        <input type="radio" id="dos" name="hijos" value="2">
+        <label for="dos">dos</label><br>
+        <input type="radio" id="mas2" name="hijos" value="mas2">
+        <label for="mas2">más de 2</label>
+        <br></br>
+
+        <label>Número (min -10, max 10):
+            <input type="number" name="numero" min="-10" max="10" value="0">
+        </label>
+        <br></br>
+
+        <label>Teléfono:
+            <input type="tel" name="telefono">
+        </label>
+        <br></br>
+
+        <label>Término de búsqueda:
+            <input type="search" name="busqueda">
+        </label>
+        <br></br>
+
+        <label>Color favorito:
+            <input type="color" name="color">
+        </label>
+        <br></br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
